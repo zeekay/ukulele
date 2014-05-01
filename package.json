@@ -1,0 +1,27 @@
+{
+  "name": "ukulele",
+  "description": "A web framework for the musically inclined.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/zeekay/ukulele",
+  "bugs": "http://github.com/zeekay/ukulele/issues",
+  "keywords": [
+    "web"
+  ],
+  "author": "Zach Kelling <zk@monoid.io> (http://zeekay.io)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zeekay/ukulele/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/",
+  "bin": "bin/uke",
+  "scripts": {
+    "prepublish": "cake build",
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zeekay/ukulele"
+  }
+}
