@@ -17,8 +17,7 @@
   "main": "lib/",
   "bin": "bin/uke",
   "scripts": {
-    "prepublish": "cake build",
-    "test": "cake test"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
